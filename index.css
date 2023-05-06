@@ -51,7 +51,7 @@
     color:black;
   }
 
-  .rolunk_bemutato{
+  #rolunk_bemutato{
     display: flex;
     width: 100vw;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
@@ -143,4 +143,91 @@
     vertical-align: middle;
     color: #000000;
     font-size: 45px;
+  }
+
+  #termek_reszletes{
+    display: none;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    justify-content: left;
+  }
+
+  .termek_reszletes_kep{
+    margin: 50px 50px 50px 300px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 5px 10px #fff;
+    width: 502px;
+  }
+
+  .termek_reszletes_ar{
+    margin: 50px 100px;
+  }
+
+  .termek_reszletes_szoveg{
+    margin: 50px 300px 0px 0px;
+  }
+
+
+  #termek_reszletes{
+    display: none;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    justify-content: left;
+  }
+
+  #termek_reszletes2{
+    display: none;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    justify-content: left;
+  }
+
+  #termek_reszletes3{
+    display: none;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    justify-content: left;
+  }
+
+  #termek_reszletes4{
+    display: none;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    justify-content: left;
+  }
+
+  #termek_reszletes5{
+    display: none;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    justify-content: left;
+  }
+  
+  #termek_reszletes6{
+    display: none;
+    width: 100vw;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #ffffff;
+    justify-content: left;
   }

@@ -35,3 +35,64 @@ function foglal(){
         }
 };
 
+
+
+function reszletek() {
+    document.getElementById("rolunk_bemutato").style.display = "none";
+    document.getElementById("termek_reszletes").style.display = "flex";
+}
+
+function reszletek2() {
+    document.getElementById("rolunk_bemutato").style.display = "none";
+    document.getElementById("termek_reszletes2").style.display = "flex";
+}
+
+function reszletek3() {
+    document.getElementById("rolunk_bemutato").style.display = "none";
+    document.getElementById("termek_reszletes3").style.display = "flex";
+}
+
+function reszletek4() {
+    document.getElementById("rolunk_bemutato").style.display = "none";
+    document.getElementById("termek_reszletes4").style.display = "flex";
+}
+function reszletek5() {
+    document.getElementById("rolunk_bemutato").style.display = "none";
+    document.getElementById("termek_reszletes5").style.display = "flex";
+}
+
+function reszletek6() {
+    document.getElementById("rolunk_bemutato").style.display = "none";
+    document.getElementById("termek_reszletes6").style.display = "flex";
+}
+
+
+function bezar() {
+    document.getElementById("rolunk_bemutato").style.display = "flex";
+    document.getElementById("termek_reszletes").style.display = "none";
+}
+
+function bezar2() {
+    document.getElementById("rolunk_bemutato").style.display = "flex";
+    document.getElementById("termek_reszletes2").style.display = "none";
+}
+
+function bezar3() {
+    document.getElementById("rolunk_bemutato").style.display = "flex";
+    document.getElementById("termek_reszletes3").style.display = "none";
+}
+
+function bezar4() {
+    document.getElementById("rolunk_bemutato").style.display = "flex";
+    document.getElementById("termek_reszletes4").style.display = "none";
+}
+
+function bezar5() {
+    document.getElementById("rolunk_bemutato").style.display = "flex";
+    document.getElementById("termek_reszletes5").style.display = "None";
+}
+
+function bezar6() {
+    document.getElementById("rolunk_bemutato").style.display = "flex";
+    document.getElementById("termek_reszletes6").style.display = "none";
+}

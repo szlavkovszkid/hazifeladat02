@@ -30,10 +30,10 @@
             
         </div>
 
-        <div class="rolunk_bemutato">
+        <div id="rolunk_bemutato">
             <section class="rolunk_bemutato_terulet">
                 <div class="box">
-                    <div class="box_kep"><img src="herrlager.jpg" alt="herrlager" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_kep"><img onclick="reszletek()" src="herrlager.jpg" alt="herrlager" height="300px" style="border: 1px solid #000;" ></div>
                     <div class="box_ar"> <p>960 Ft</p></div>
                     <div class="box_szoveg">
                         <details>
@@ -57,7 +57,7 @@
                 </div>
 
                 <div class="box">
-                    <div class="box_kep"><img src="pilsner_u╠łveg.jpg" alt="pilsner_u╠łveg" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_kep"><img onclick="reszletek2()" src="pilsner_u╠łveg.jpg" alt="pilsner_u╠łveg" height="300px" style="border: 1px solid #000;" ></div>
                     <div class="box_ar"> <p>1.050 Ft</p></div>
                     <div class="box_szoveg">
                         <details>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box_kep"><img src="witbier_u╠łveg.jpg" alt="witbier_u╠łveg" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_kep"><img onclick="reszletek3()" src="witbier_u╠łveg.jpg" alt="witbier_u╠łveg" height="300px" style="border: 1px solid #000;" ></div>
                     <div class="box_ar"> <p>1.090 Ft</p></div>
                     <div class="box_szoveg">
                         <details>
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box_kep"><img src="Horizont Morning Joe.jpg" alt="Horizont Morning Joe" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_kep"><img onclick="reszletek4()" src="Horizont Morning Joe.jpg" alt="Horizont Morning Joe" height="300px" style="border: 1px solid #000;" ></div>
                     <div class="box_ar"> <p>1.190 Ft</p></div>
                     <div class="box_szoveg">
                         <details>
@@ -122,7 +122,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box_kep"><img src="Selfishgmarzen.png" data-action="zoom" alt="Selfishgmarzen" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_kep"><img onclick="reszletek5()" src="Selfishgmarzen.png" data-action="zoom" alt="Selfishgmarzen" height="300px" style="border: 1px solid #000;" ></div>
                     <div class="box_ar"> <p>890 Ft</p></div>
                     <div class="box_szoveg">
                         <details>
@@ -141,7 +141,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box_kep"><img src="herrlagercan.jpg" alt="herrlagercan" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_kep"><img onclick="reszletek6()" src="herrlagercan.jpg" alt="herrlagercan" height="300px" style="border: 1px solid #000;" ></div>
                     <div class="box_ar"> <p>860 Ft</p></div>
                     <div class="box_szoveg">
                         <details>
@@ -164,6 +164,150 @@
                     </div>
                 </div>
             </section>
+        </div>
+
+        <div id="termek_reszletes">
+            <div class="termek_reszletes_kep"><img src="herrlager.jpg" alt="herrlager" height="500px" style="border: 1px solid #000;" ></div>
+            <div class="termek_reszletes_ar"><p>Ár: 960 Ft</p></div>
+            <div class="termek_reszletes_szoveg">
+                <details open>
+                    <summary>Herr Lager - hidegkomlózott lager</summary>
+                            <p>ABV 4,5%, 11° B, 6 EBC, 25 IBU<br><br><br>                               
+                                Könnyed német típusú lager, amerikai komlóval                       
+                                A hagyományos, világos lagersörök a világ legtöbb
+                                pontján azért népszerűek, mert egyszerűek és
+                                kiszámíthatóak – ez sok esetben igaz is, de
+                                messze nem mindig. Hidegkomlózással
+                                (forralás után adagolt komlóval) például
+                                egészen újszerű és izgalmas söröket lehet főzni,
+                                ahogy azt mi is tesszük. Klasszikus lagersörös
+                                alapokon is lehet újdonságot alkotni: mind a
+                                hagyományos ízek kedvelőinek, mind pedig az
+                                újdonságokra fogékonyaknak ajánljuk a 
+                                hidegkomlózással megbolondított lagersörünket.
+                            </p>
+                </details>
+                <button onclick="bezar()">Vissza</button>
+            </div>
+        
+        </div>
+
+        <div id="termek_reszletes2">
+            <div class="termek_reszletes_kep"><img src="pilsner_u╠łveg.jpg" alt="pilsner_u╠łveg" height="500px" style="border: 1px solid #000;" ></div>
+            <div class="termek_reszletes_ar"><p>Ár: 1.050 Ft</p></div>
+            <div class="termek_reszletes_szoveg">
+                <details open>
+                    <summary>FIRST PILSNER 0,33L</summary>
+                            <p> Tradíciónális, alsóerjesztésű sörstílus..
+                                A FIRST Pilsner nem csak nevében pilesni.
+                                Hagyományos cseh eljárással, hosszan erjesztett,
+                                pilseni alapanyagok felhasználásával készül a
+                                Jan Suran (elnök, Cseh kézműves Sörfőzdék Egyesülete) receptje alapján.
+                                Stílus: Czech Premium Pale Lager
+                                Alkohol fok: 4,5
+                                IBU: 21
+                                Balling: 11,5
+                            </p>
+                </details>
+                <button onclick="bezar2()">Vissza</button>
+            </div>
+        
+        </div>
+
+        <div id="termek_reszletes3">
+            <div class="termek_reszletes_kep"><img src="witbier_u╠łveg.jpg" alt="witbier_u╠łveg" height="500px" style="border: 1px solid #000;" ></div>
+            <div class="termek_reszletes_ar"><p>Ár: 1.090 Ft</p></div>
+            <div class="termek_reszletes_szoveg">
+                <details open>
+                    <summary>FIRST BELGIAN WITB. BÚZA SÖR 0,33L</summary>
+                            <p> Belga típusú búzasör, korianderrel és keserű-narancshéjjal.
+                                Egy könnyed, fűszeres, száraz stílus. Savanykás, citrusos
+                                ízének köszönhetően kiváló szomjoltó.
+
+                                Stílus: Witbier
+                                Alkohol fok: 4,5
+                                IBU: 13
+                                Bailing fok: 12
+                            </p>
+                </details>
+                <button onclick="bezar3()">Vissza</button>
+            </div>
+        
+        </div>
+
+        <div id="termek_reszletes4">
+            <div class="termek_reszletes_kep"><img src="Horizont Morning Joe.jpg" alt="Horizont Morning Joe" height="500px" style="border: 1px solid #000;" ></div>
+            <div class="termek_reszletes_ar"><p>Ár: 1.190 Ft</p></div>
+            <div class="termek_reszletes_szoveg">
+                <details open>
+                    <summary>HORIZONT MORNING JOE 0,33L</summary>
+                                <p>ABV 6%, 16° B, 70 EBC, 35 IBU <br><br><br>
+                                Belga típusú búzasör, korianderrel és keserű-narancshéjjal.
+                                Egy sört reggelire? A Morning Joe az első állandó sötét sörünk,
+                                a rengeteg limitált és nemzetközi együttműködésben készült barna
+                                és fekete főzet után. A breakfast stout egy viszonylag lazán
+                                értelmezett sörstílus. Lényege, hogy egy alap stoutot olyan
+                                hozzávalókkal egészítenek ki, amelyek egy amerikai reggeli
+                                részei lehetnének. Mi egy sok zabbal megpakolt alapot
+                                (oatmeal stout) készítettünk, ennek köszönhetően a sör
+                                krémes, testes, selymes kortyérzettel és bézs színű
+                                habbal. Az alapot pedig minőségi kakakóbabbal és a
+                                Casino Mocca magyar kézműves kávépörkölőABV
+                                6%, 16° B, 70 EBC, 35 IBUk etiópiai kávéjával turbóztuk
+                                fel. A markáns kávés pörkölt ízjegyeket a kakaó csokoládés
+                                édessége kerekíti le, a zab pedig könnyen ihatóvá teszi. 
+                                Kellemes és élénkítő ital, mint egy jó capuccino.
+                            </p>
+                </details>
+                <button onclick="bezar4()">Vissza</button>
+            </div>
+        
+        </div>
+
+        <div id="termek_reszletes5">
+            <div class="termek_reszletes_kep"><img src="Selfishgmarzen.png" alt="Selfishgmarzen" height="500px" style="border: 1px solid #000;" ></div>
+            <div class="termek_reszletes_ar"><p>Ár: 890 Ft</p></div>
+            <div class="termek_reszletes_szoveg">
+                <details open>
+                    <summary>HORIZONT SELFISH GAMES 017 MARZEN 0,33</summary>
+                                <p>Az eredeti recepten épp csak annyit módosítottunk,
+                                    hogy az elmúlt két év tapasztalatait hozzáadtuk,
+                                    és ezáltal egy még harmonikusabb, könnyebben iható,
+                                    maláta központú finom lagert kapjunk. 4 hónapig
+                                    várta a tartályban a kiszerelést.
+
+                                    Alk.: 6,7%
+                                </p>    
+                </details>
+                <button onclick="bezar5()">Vissza</button>
+            </div>
+        
+        </div>
+
+        <div id="termek_reszletes6">
+            <div class="termek_reszletes_kep"><img src="herrlagercan.jpg" alt="herrlagercan" height="500px" style="border: 1px solid #000;" ></div>
+            <div class="termek_reszletes_ar"><p>Ár: 860 Ft</p></div>
+            <div class="termek_reszletes_szoveg">
+                <details open>
+                    <summary>Herr Lager - hidegkomlózott lager</summary>
+                    <p>BV 4,5%, 11° B, 6 EBC, 25 IBU<br><br><br>
+                        Könnyed német típusú lager, amerikai komlóval
+                        A hagyományos, világos lagersörök a világ
+                        legtöbb pontján azért népszerűek, mert egyszerűek
+                        és kiszámíthatóak – ez sok esetben igaz is,
+                        de messze nem mindig. Hidegkomlózással
+                        (forralás után adagolt komlóval) például egészen
+                        újszerű és izgalmas söröket lehet főzni, ahogy
+                        azt mi is tesszük. Klasszikus lagersörös alapokon
+                        is lehet újdonságot alkotni: mind a hagyományos
+                        ízek kedvelőinek, mind pedig az újdonságokra
+                        fogékonyaknak ajánljuk a hidegkomlózással
+                        megbolondított lagersörünket.
+                </p>    
+                </details>
+                <button onclick="bezar6()">Vissza</button>
+            </div>
+        
         </div>
 
     <script src='index.js'></script>
