@@ -1,0 +1,184 @@
+<!DOCTYPE html> <!-- Ezzel adom meg hogy html a keresőnek kell -->
+<html lang="hu"> <!--Az attribútumot mindig a címkén belül kell szerepeltetnie a weboldal nyelvének deklarálásához. Ennek célja, hogy segítse a keresőmotorokat és a böngészőket pl.: lang="hu"-->
+    <head>
+        <title>A weboldal neve</title> <!-- Ezzel adom meg a weboldal nevét -->
+        <meta charset="UTF-8"> <!-- kódolási nyelv amivel a szöveg megjelenik -->
+        <meta name="description" content="Iskolai gyakorló óra feladatok"> <!-- Weboldal leírása -->
+        <meta name="keywords" content="HTML, CSS, JavaScript, Iskolai feladatok"> <!-- Kulcsszavak a kereső motorhoz -->
+        <meta name="author" content="Szlavkovszki Dániel"> <!-- Webodal szerzője -->
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <p class="preheader">A SÖRBAR</p>
+            <nav class="menu_box">
+                <a href="index.html">Rólunk</a>
+                <a href="termekek.html">Termékek</a>
+                <a href="kapcsolat.html">Kapcsolat</a>
+            </nav>
+        </header>
+
+        <div id="overlay">
+            <div id="text">Elmúltál 18 éves?</div>
+            <div class="valaszto">
+                <button onclick="off()">Igen</button>
+                <button onclick="on()">Nem</button>                
+             </div>
+            
+        </div>
+
+        <div class="rolunk_bemutato">
+            <section class="rolunk_bemutato_terulet">
+                <div class="box">
+                    <div class="box_kep"><img src="herrlager.jpg" alt="herrlager" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_ar"> <p>960 Ft</p></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>Herr Lager - hidegkomlózott lager</summary>
+                            <p>ABV 4,5%, 11° B, 6 EBC, 25 IBU<br><br><br>                               
+                                Könnyed német típusú lager, amerikai komlóval                       
+                                A hagyományos, világos lagersörök a világ legtöbb
+                                pontján azért népszerűek, mert egyszerűek és
+                                kiszámíthatóak – ez sok esetben igaz is, de
+                                messze nem mindig. Hidegkomlózással
+                                (forralás után adagolt komlóval) például
+                                egészen újszerű és izgalmas söröket lehet főzni,
+                                ahogy azt mi is tesszük. Klasszikus lagersörös
+                                alapokon is lehet újdonságot alkotni: mind a
+                                hagyományos ízek kedvelőinek, mind pedig az
+                                újdonságokra fogékonyaknak ajánljuk a 
+                                hidegkomlózással megbolondított lagersörünket.
+                            </p>
+                        </details>
+                        </div>
+                </div>
+
+                <div class="box">
+                    <div class="box_kep"><img src="pilsner_u╠łveg.jpg" alt="pilsner_u╠łveg" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_ar"> <p>1.050 Ft</p></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>FIRST PILSNER 0,33L</summary>
+                            <p> Tradíciónális, alsóerjesztésű sörstílus..
+                                A FIRST Pilsner nem csak nevében pilesni.
+                                Hagyományos cseh eljárással, hosszan erjesztett,
+                                pilseni alapanyagok felhasználásával készül a
+                                Jan Suran (elnök, Cseh kézműves Sörfőzdék Egyesülete) receptje alapján.
+                                Stílus: Czech Premium Pale Lager
+                                Alkohol fok: 4,5
+                                IBU: 21
+                                Balling: 11,5
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_kep"><img src="witbier_u╠łveg.jpg" alt="witbier_u╠łveg" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_ar"> <p>1.090 Ft</p></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>FIRST BELGIAN WITB. BÚZA SÖR 0,33L</summary>
+                            <p> Belga típusú búzasör, korianderrel és keserű-narancshéjjal.
+                                Egy könnyed, fűszeres, száraz stílus. Savanykás, citrusos
+                                ízének köszönhetően kiváló szomjoltó.
+
+                                Stílus: Witbier
+                                Alkohol fok: 4,5
+                                IBU: 13
+                                Bailing fok: 12
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_kep"><img src="Horizont Morning Joe.jpg" alt="Horizont Morning Joe" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_ar"> <p>1.190 Ft</p></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>HORIZONT MORNING JOE 0,33L</summary>
+                                <p>ABV 6%, 16° B, 70 EBC, 35 IBU <br><br><br>
+                                Belga típusú búzasör, korianderrel és keserű-narancshéjjal.
+                                Egy sört reggelire? A Morning Joe az első állandó sötét sörünk,
+                                a rengeteg limitált és nemzetközi együttműködésben készült barna
+                                és fekete főzet után. A breakfast stout egy viszonylag lazán
+                                értelmezett sörstílus. Lényege, hogy egy alap stoutot olyan
+                                hozzávalókkal egészítenek ki, amelyek egy amerikai reggeli
+                                részei lehetnének. Mi egy sok zabbal megpakolt alapot
+                                (oatmeal stout) készítettünk, ennek köszönhetően a sör
+                                krémes, testes, selymes kortyérzettel és bézs színű
+                                habbal. Az alapot pedig minőségi kakakóbabbal és a
+                                Casino Mocca magyar kézműves kávépörkölőABV
+                                6%, 16° B, 70 EBC, 35 IBUk etiópiai kávéjával turbóztuk
+                                fel. A markáns kávés pörkölt ízjegyeket a kakaó csokoládés
+                                édessége kerekíti le, a zab pedig könnyen ihatóvá teszi. 
+                                Kellemes és élénkítő ital, mint egy jó capuccino.
+
+
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_kep"><img src="Selfishgmarzen.png" data-action="zoom" alt="Selfishgmarzen" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_ar"> <p>890 Ft</p></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>HORIZONT SELFISH GAMES 017 MARZEN 0,33</summary>
+                                <p>Az eredeti recepten épp csak annyit módosítottunk,
+                                    hogy az elmúlt két év tapasztalatait hozzáadtuk,
+                                    és ezáltal egy még harmonikusabb, könnyebben iható,
+                                    maláta központú finom lagert kapjunk. 4 hónapig
+                                    várta a tartályban a kiszerelést.
+
+                                    Alk.: 6,7%
+
+
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_kep"><img src="herrlagercan.jpg" alt="herrlagercan" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_ar"> <p>860 Ft</p></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>Herr Lager - hidegkomlózott lager</summary>
+                                <p>BV 4,5%, 11° B, 6 EBC, 25 IBU<br><br><br>
+                                    Könnyed német típusú lager, amerikai komlóval
+                                    A hagyományos, világos lagersörök a világ
+                                    legtöbb pontján azért népszerűek, mert egyszerűek
+                                    és kiszámíthatóak – ez sok esetben igaz is,
+                                    de messze nem mindig. Hidegkomlózással
+                                    (forralás után adagolt komlóval) például egészen
+                                    újszerű és izgalmas söröket lehet főzni, ahogy
+                                    azt mi is tesszük. Klasszikus lagersörös alapokon
+                                    is lehet újdonságot alkotni: mind a hagyományos
+                                    ízek kedvelőinek, mind pedig az újdonságokra
+                                    fogékonyaknak ajánljuk a hidegkomlózással
+                                    megbolondított lagersörünket.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    <script src='index.js'></script>
+    </body>   
+
+    <footer class="footer">
+        <div class="footer_box">
+        <p>Magdi anyus vendéglője</p>
+        <p>Magdi.anyis@lepcsohaz.com</p>
+        <p>1089 Lepcsohaz Baratok koz 23. </p>
+        </div>
+    </footer>
+
+
+
+
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html> <!-- Ezzel adom meg hogy html a keresőnek kell -->
+<html lang="hu"> <!--Az attribútumot mindig a címkén belül kell szerepeltetnie a weboldal nyelvének deklarálásához. Ennek célja, hogy segítse a keresőmotorokat és a böngészőket pl.: lang="hu"-->
+    <head>
+        <title>A weboldal neve</title> <!-- Ezzel adom meg a weboldal nevét -->
+        <meta charset="UTF-8"> <!-- kódolási nyelv amivel a szöveg megjelenik -->
+        <meta name="description" content="Iskolai gyakorló óra feladatok"> <!-- Weboldal leírása -->
+        <meta name="keywords" content="HTML, CSS, JavaScript, Iskolai feladatok"> <!-- Kulcsszavak a kereső motorhoz -->
+        <meta name="author" content="Szlavkovszki Dániel"> <!-- Webodal szerzője -->
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <p class="preheader">A SÖRBAR</p>
+            <nav class="menu_box">
+                <a href="index.html">Rólunk</a>
+                <a href="termekek.html">Termékek</a>
+                <a href="kapcsolat.html">Kapcsolat</a>
+            </nav>
+        </header>
+
+        <div id="overlay">
+            <div id="text">Elmúltál 18 éves?</div>
+            <div class="valaszto">
+                <button onclick="off()">Igen</button>
+                <button onclick="on()">Nem</button>                
+             </div>
+            
+        </div>
+       
+        <div class="rolunk_bemutato">
+            <section class="rolunk_bemutato_terulet">
+                <div class="bemutato_fo">
+                    <div class="bemutato_fo_kep">
+                        <div class="bemutato_fo_jelentkezz">
+                            <h1> Asztal Foglalás</h1>
+                            <label for="szemely">Hány főre foglalsz?</label>
+                            <input type="text" id="szemely"><br>
+                            <label for="asztal">Hány asztalt foglalsz?</label>
+                            <input type="text" id="asztal"><br>
+                            <button onclick="foglal()">Foglalás</button>
+                            <p id="showinputszemely"></p>
+                            <p id="showinputasztal"></p>
+                        </div>
+
+                    </div>
+                    <div class="bemutato_fo_szoveg_jelentkezz">
+                    <div class="bemutato_fo_szoveg">
+                        A Lánchíd alagútjához vezető út és az Attila utca sarkán van egy non-stop hentes, ahová muszáj volt beugranunk csupán a zsömlébe karikázott sült kolbász ízének Prágát idéző illúziója végett… Onnan már csak pár méter. Az igazi. A hamisítatlan. A majdnem tökéletes. Az az Illúzió sörbár, ami ritkán csal meg!
+    
+    Az Illúzió söröző, úgyis mint Illuzió drink bár – szigoróan rövid U-val – kopott házfala és a felhizlalt Julius Meinl néger babás logó előtt szólalkoztunk össze ugyanazon vendégségbe sereglőkkel. Kaiser sörlámpák alatt, Zlaty Bazant, Steffl és Topvar sörtáblák mellett, a benti Borsodi sörcsapra rálátva hamiskásnak tűnt a tény, hogy sörből itt nem lesz más, csak Staropramen. És mi mégis bementünk. Elszánt kocsmafiak, mindennek ellenére!
+    
+    Az elszánt kocsmafiak ezúttal ünnepeltek. Egy olyan lányt, aki képes annyit inni, ami teljesítménnyel felmérő csapatunkba bármikor felvételt nyerne, és képes annyi bringás arcot és mutatós barátnőt egy kocsmatető alá vinni, amivel a közönségről alkotott képünk ‘reális plusz’ irányba ferdítette.
+    
+    Megvan ez a hely már vagy 20 éve. 1987 óta, hogy pontos legyek. De hogy kié, mié, miért, a pultban álló hölgytől ezúttal nem tudtunk meg; na ja, tipikus budai titkolózás, az itallapot is úgy kellett kikérni, mintha az a kettős könyvelés része lenne. És benne? A nem létező weblap címe mellett márkázatlan sör és bor tételek.
+    
+    Hogy miért ide gyűltünk? Mert a budai úri társaságnak ez van közel, ehhez volt kedve. Annak ellenére csípik a helyet, hogy csak éjfélig lehet kulturáltan szórakozni, és hogy a végén a pszichológiai hadviselés több elemét együttesen alkalmazva terelik a belváros felé a népet.
+                    </div>
+                    
+                </div>
+            </div>
+    
+
+                <div class="box_szem">
+                    <div class="box_kep"><img src="felszolgalo-munkakori-leiras.jpg" alt="felszolgalo-munkakori-leiras" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>Kaszás Erzsi</summary>
+                            <p>A fentiekből máris kiderül, hogy miért nem elegendő az ételt egyszerűen felszolgálni: a jobb éttermekben rendkívül fontos, hogy a felszolgálók képesek legyenek megfelelően bánni a vendéggel. Ehhez természetesen a megfelelő személyiségjegyek, na meg sok-sok tapasztalat szükségesek.
+
+                                Hasonlóan összetett a felszolgálók feladatköre is, és hogy a helyzet még cifrább legyen, azzal is érdemes tisztában lenni, hogy a igen sokféle felszolgáló létezik.
+                            </p>
+                        </details>
+                        </div>
+                </div>
+
+                <div class="box_szem">
+                    <div class="box_kep"><img src="letöltés.jpg" alt="letöltés" height="300px" width="450px" style="border: 1px solid #000;" ></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>Ákoska és Judit</summary>
+                            <p> lvégzi a saját iparágának bemutatását és elemzését. Fogadja a vendégeket. Húsipari termékgyártó szakma bemutatása. A szakma bemutatása filmen.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="box_szem">
+                    <div class="box_kep"><img src="pincer.jpeg" alt="pincer" height="300px" width="450px" style="border: 1px solid #000;" ></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>Zolika</summary>
+                            <p> A pincér vagy felszolgáló küldetése, hogy a vendégek elégedetten távozzanak az ott töltött idő után. Frissen készült ételt asztalhoz vinni bárki meg tud tanulni, de ráérezni a vendégek ízlésére, vagy éppen a legjobbkor felkeresni őket az asztalnál már egy külön szakma - szinte művészet.
+
+                                Ha megpróbáljuk összegyűjteni egy pincér átlagos feladatait, egy igen hosszú listába tudjuk csak összeszedni. Ennek nem csak az az oka, hogy a felszolgálóknak minden, a vendégekkel kapcsolatos teendőt el kell látniuk, hanem az is, hogy különböző ágai léteznek a pincérszakmának - más és más feladatokkal.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="box_szem">
+                    <div class="box_kep"><img src="pincer-tanfolyam.jpg" alt="pincer-tanfolyam" height="300px" style="border: 1px solid #000;" ></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>Julika</summary>
+                                <p>A segédpincérek például a főpincérek keze alá dolgoznak, és korlátozottan érintkeznek a vendéggel. A fizettetést például már jellemzően a komoly rutinnal bíró főpincérek menedzselik. A csapatjáték viszont elengedhetetlen, folyamatos kommunikációra van szükség a felszolgálók között, de természetesen a pincérek és a konyhai dolgozók között is, nehogy elfelejtődjön egy számla vagy egy vacsora után kikért desszert.
+
+
+                            </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="box_szem">
+                    <div class="box_kep"><img src="szakacs.png" data-action="zoom" alt="szakacs" height="300px" width="450px" style="border: 1px solid #000;" ></div>
+                    <div class="box_szoveg">
+                        <details>
+                            <summary>Gazsi</summary>
+                                <p> Cikkek  Színes  A felszolgálás szépségei
+                                    Az éttermek hangulata, az ízletes ételek és a különleges italok kombinációja varázslatos élményt nyújt mindenki számára. De vajon milyen lehet egy pincér élete, aki ehhez az élményhez szintén sokat hozzátesz. Bánki Attila – aki immáron 17 éve erősíti egy híres budapesti étterem kiváló felszolgálói csapatát – mesélt nekünk a pincér szakma érdekességeiről és saját tapasztalatairól.
+
+
+                            </p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        
+        
+        
+
+    <script src='index.js'></script>
+    </body>   
+
+    <footer class="footer">
+        <div class="footer_box">
+        <p>Magdi anyus vendéglője</p>
+        <p>Magdi.anyis@lepcsohaz.com</p>
+        <p>1089 Lepcsohaz Baratok koz 23. </p>
+        </div>
+    </footer>
+
+
+
+
+
+</html>
